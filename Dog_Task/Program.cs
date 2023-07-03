@@ -1,10 +1,15 @@
 ﻿int count = 0;
-int distance = 10000;
-int firstFriendSpeed = 1;
-int secondFriendSpeed = 2;
-int dogSpeed = 5;
 int friend = 2;
 int time = 0;
+Console.Write("Введите дистанцию: ");
+int distance = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите скорость 1-го друга: ");
+int firstFriendSpeed = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите скорость 2-го друга: ");
+int secondFriendSpeed = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите скорость собаки: ");
+int dogSpeed = Convert.ToInt32(Console.ReadLine());
+
 
 while(distance > 10)
 {
@@ -21,8 +26,8 @@ while(distance > 10)
     distance = distance - (firstFriendSpeed + secondFriendSpeed) * time;
     count++;
 }
-
-Console.WriteLine(count);
-
+Console.Write("Собака пробежит ");
+Console.Write(count);
+Console.Write(" раз");
 
 

@@ -162,3 +162,4 @@ while(distance > 10)
 
 Console.WriteLine(count);
 Ответ = 12
+25. int numberA = Convert.ToInt32(Console.ReadLine()); - преобразуем данные введеные в строку в числовое значение

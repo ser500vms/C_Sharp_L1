@@ -1,6 +1,7 @@
-﻿int numberA = new Random().Next(1, 10); // 1 2 3 4 ... 9
-Console.WriteLine(numberA);
-int numberB = new Random().Next(1, 10);
-Console.WriteLine(numberB);
-int result = numberA + numberB;
-Console.WriteLine(result);
+﻿Console.WriteLine("Введите 1-е число ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите 2-е число ");
+int numberB = Convert.ToInt32(Console.ReadLine());
+int sum = numberA + numberB;
+Console.Write("Сумма = ");
+Console.Write(sum);
