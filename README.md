@@ -14,3 +14,9 @@
     int result = numberA + numberB;
     Console.WriteLine(result);
 Данная программа выводит сумму двух заданных чисел. int - переменная(целое число).
+11. Заметка, файл .gitignore нужно добавлять до пуша. 
+12. double numberA = 12;
+    double numberB = 5;
+    double result = numberA / numberB;
+    Console.WriteLine(result);
+    Данная программа выводит результат деления двух заданных чисел. double - переменная(для не целых чисел).
